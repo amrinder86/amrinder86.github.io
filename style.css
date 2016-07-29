@@ -1,3 +1,57 @@
 body {
   background: red;
+
+}
+
+.test{
+  border: double;
+  display: block;
+  border-color: yellow;
+  margin: auto;
+padding: 10px;
+width:20%;
+
+
+}
+
+#diff-font {
+font-family: 'Covered By Your Grace', cursive;
+
+}
+#diff-font:hover {
+  
+  color: #49F368;
+}
+
+.button1 {
+  border: none;
+  width: 90px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: yellow;
+  margin: auto;
+  color: red;
+  }
+  .button1:hover {
+    background-color: #A3F5EB;
+    text-decoration: blink;
+  }
+  
+  .nav1 {
+
+    text-align: center;
+  }
+.disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+  font-weight: bold;
+}
+.peela {
+color: yellow;
+}
+.chitta {
+  color: white;
+}
+.footer {
+  text-align: center;
 }
