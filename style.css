@@ -8,14 +8,14 @@ body {
   display: block;
   border-color: yellow;
   margin: auto;
-padding: 10px;
-width:20%;
+  padding: 10px;
+  width:20%;
 
 
 }
 
 #diff-font {
-font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Covered By Your Grace', cursive;
 
 }
 #diff-font:hover {
@@ -32,6 +32,7 @@ font-family: 'Covered By Your Grace', cursive;
   margin: auto;
   color: red;
   }
+
   .button1:hover {
     background-color: #A3F5EB;
     text-decoration: blink;
@@ -41,11 +42,13 @@ font-family: 'Covered By Your Grace', cursive;
 
     text-align: center;
   }
+
 .disabled{
   opacity: 0.5;
   cursor: not-allowed;
   font-weight: bold;
 }
+
 .peela {
   color: yellow;
 }
@@ -53,6 +56,19 @@ font-family: 'Covered By Your Grace', cursive;
 .chitta {
   color: white;
 }
+
 .footer {
   text-align: center;
+}
+#visited a:visited  {
+  color: #DCF287;
+
+}
+
+@media screen and (max-width: 405px) {
+    body {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 15px;
+    background-color: #4FC520;
+    }
 }
