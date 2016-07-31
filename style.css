@@ -1,6 +1,6 @@
 body {
-  background-image: url("red.png");
-
+  background-color: red;
+  
 }
 
 .test{
@@ -70,6 +70,7 @@ body {
     body {
     font-family: 'Covered By Your Grace', cursive;
     font-size: 15px;
-    background-color: #4FC520;
+    background-image: url("lime_green.jpg");
+    text-align: center;
     }
 }
